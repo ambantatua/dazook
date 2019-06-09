@@ -1,0 +1,118 @@
+/*
+	* File Name    : mainBody.css
+	* Author       : Amber Bantatua
+	* Date Created : 04 February 2013
+	* Version      : 1.0
+	* Last Modified: 
+	* Description  : External CSS screen styles
+*/
+
+body {
+	font-family: arial, sans-serif;
+}
+
+#container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.logoMain {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+	border:1px solid #181818;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    min-width: 730px;
+	font-size: 14pt;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:8px;
+}
+
+.menuButtonH {
+	width: 100px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+a:hover {
+	color: white;
+	background-color: DimGrey;
+}
+
+.no_underline {text-decoration: none;}
+
+a:link.other_color {color: DimGrey;}
+a:hover.other_color {
+	color: LightSteelBlue;
+	background-color: black;
+}
+a:visited.other_color {color: DimGrey;}
+
+.selected {
+	color: black;
+	background-color: white;
+}
+
+.social {
+	list-style: none;
+	position: fixed; 
+	top: 155px; 
+	left: -30px;
+}
+
+.rounded {
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+#bannerContainer {
+	width:735px;
+	height:107px;
+	display:block;
+	margin:0 auto;
+}
+#banner {
+	opacity:0.7;
+	margin:0 auto;
+	margin-bottom:2px;
+}
+
+footer {color:DimGrey;
+	min-width: 900px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+a:link.footer_color {color: DimGrey;}
+a:hover.footer_color {
+	color: white;
+}
+a:visited.footer_color {color: DimGrey;}
+
+.floatLeft {
+	float: left;
+	width: 40%;
+}
+
+.floatRight {
+text-align: right;
+font-size:8pt;
+}
